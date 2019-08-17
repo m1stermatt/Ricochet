@@ -1,0 +1,47 @@
+/* 
+  Localizable.strings
+  Ricochet
+
+  Created by Matthew Nam on 2018-06-20.
+  Copyright © 2018 WamDev. All rights reserved.
+*/
+
+"Page" = "Page";
+"Got it" = "Compris";
+
+"Drag to aim ball. After, rotate" = "Glisser pour viser la balle. Après,";
+"green beams by dragging finger:" = "pivoter poutres vertes par glisser";
+"While rotating, green bars" = "En tournant, les poutres vertes";
+"become invisible" = "deviennent invisible";
+
+"Support Devs" = "Soutenir Les Dévs";
+"Unlock All Levels" = "Ouvrir Tous Les Niveaux";
+"Purchase Five Passes" = "Acheter Cinq Passes";
+"Restore Purchases" = "Restaurer Vos Achats";
+"Rate 5 Stars" = "Donner Une Note";
+
+"Invert Controls" = "Inverser Les Contrôles";
+"Use Control Beam" = "Utiliser Poutre de Contrôle";
+"Sound On" = "Bruitage";
+"Music On" = "Musique";
+"Double Tap to Restart" = "Taper Deux Fois Pour Redémarrer";
+
+"Rate rico.chet" = "Noter rico.chet";
+"Purchase 5 Skips?" = "Acheter 5 Skips?";
+"Skip Level?" = "Sauter Ce Niveau?";
+"Ok" = "D'Accord";
+"Cancel" = "Annuler";
+
+"congratulations!\nnow play it all again" = "félicitation!\nmerci de jouer";
+"after shooting, rotate green beams\nwith control beam at the bottom" = "après tirer, pivoter poutres vertes\navec poutre de contrôle au bas";
+"after shooting, rotate green\nbeams by dragging finger" = "après tirer, pivoter poutres\nvertes par glisser";
+"drag to aim ball.\nlet go to shoot" = "glisser pour visers la balle.\nlâcher pour tirer";
+"farther drag means\nfaster speed" = "plus loin glisser cause\nvitesse plus rapide";
+"double tap\nto restart" = "taper deux fois\npour redémarrer";
+"the ball can bounce\noff green beams" = "la balle peut rebondir\nsur poutres vertes";
+"while moving, green beams\nbecome invisible" = "en tournant, poutres vertes\ndeviennent invisible";
+"tap to\nopen menu" = "taper pour\nouvrir menu";
+"you can change your\ncontrols in settings" = "vous pouvez changer votre\ncontrôle dans réglages";
+"tip: no rotating\nrequired" = "conseil: pas de rotation\nnécessaire";
+"major key\nalert" = "alerte clé\nmajeure";
+"holes have\ngravity" = "trous ont\nla gravité";

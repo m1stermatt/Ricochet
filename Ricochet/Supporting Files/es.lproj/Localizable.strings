@@ -1,0 +1,47 @@
+/* 
+  Localizable.strings
+  Ricochet
+
+  Created by Matthew Nam on 2018-06-20.
+  Copyright © 2018 WamDev. All rights reserved.
+*/
+
+"Page" = "Página";
+"Got it" = "Comprendido";
+
+"Drag to aim ball. After, rotate" = "Arrastrar para apuntar la pelota.";
+"green beams by dragging finger:" = "Gira vigas verdes arrastrándolas:";
+"While rotating, green bars" = "Mientras gira, vigas verdes";
+"become invisible" = "se vuelven invisibles";
+
+"Support Devs" = "Financiar Desarrolladores";
+"Unlock All Levels" = "Abrir Todos Niveles";
+"Purchase Five Passes" = "Comprar Cinco Pases";
+"Restore Purchases" = "Restaurar Las Compras";
+"Rate 5 Stars" = "Puntuar";
+
+"Invert Controls" = "Invertir Controls";
+"Use Control Beam" = "Usar Vigas de Control";
+"Sound On" = "Sonar";
+"Music On" = "Música";
+"Double Tap to Restart" = "Tocar Dos Veces Para Reiniciar";
+
+"Rate rico.chet" = "Puntuar rico.chet";
+"Purchase 5 Skips?" = "Comprar 5 Skips?";
+"Skip Level?" = "Pasar Nivel?";
+"Ok" = "Sí";
+"Cancel" = "No";
+
+"congratulations!\nnow play it all again" = "felicitación!\ngracias por jugar";
+"after shooting, rotate green beams\nwith control beam at the bottom" = "después disparar, gire vigas verdes\ncon viga de control en parte inferior";
+"after shooting, rotate green\nbeams by dragging finger" = "después disparar, gire vigas\nverdes arrastrándolas";
+"drag to aim ball.\nlet go to shoot" = "arrastrar para apuntar la pelota.\nsoltar para disparar";
+"farther drag means\nfaster speed" = "más arrastre causa\nvelocidad más rápida";
+"double tap\nto restart" = "tocar dos veces\npara reiniciar";
+"the ball can bounce\noff green beams" = "la pelota puede rebotar\nen vigas verdes";
+"while moving, green beams\nbecome invisible" = "mientras gira, vigas verdes\nse vuelven invisibles";
+"tap to\nopen menu" = "tocar para\nabrir menú";
+"you can change your\ncontrols in settings" = "puedes cambiar tus controles\nen la configuración";
+"tip: no rotating\nrequired" = "consejo: no se\nrequiere rotación";
+"major key\nalert" = "alerta clave\nprincipal";
+"holes have\ngravity" = "agujeros tienen\ngravedad";
