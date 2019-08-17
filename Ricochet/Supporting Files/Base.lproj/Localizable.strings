@@ -1,0 +1,47 @@
+/* 
+  Localizable.strings
+  Ricochet
+
+  Created by Matthew Nam on 2018-06-20.
+  Copyright © 2018 WamDev. All rights reserved.
+*/
+
+"Page" = "Page";
+"Got it" = "Got it";
+
+"Drag to aim ball. After, rotate" = "Drag to aim ball. After, rotate";
+"green beams by dragging finger:" = "green beams by dragging finger:";
+"While rotating, green bars" = "While rotating, green bars";
+"become invisible" = "become invisible";
+
+"Support Devs" = "Support Devs";
+"Unlock All Levels" = "Unlock All Levels";
+"Purchase Five Passes" = "Purchase Five Passes";
+"Restore Purchases" = "Restore Purchases";
+"Rate 5 Stars" = "Rate 5 Stars";
+
+"Invert Controls" = "Invert Controls";
+"Use Control Beam" = "Use Control Beam";
+"Sound On" = "Sound On";
+"Music On" = "Music On";
+"Double Tap to Restart" = "Double Tap to Restart";
+
+"Rate rico.chet" = "Rate rico.chet";
+"Purchase 5 Skips?" = "Purchase 5 Skips?";
+"Skip Level?" = "Skip Level?";
+"Ok" = "Ok";
+"Cancel" = "Cancel";
+
+"congratulations!\nnow play it all again" = "congratulations!\nnow play it all again";
+"after shooting, rotate green beams\nwith control beam at the bottom" = "after shooting, rotate green beams\nwith control beam at the bottom";
+"after shooting, rotate green\nbeams by dragging finger" = "after shooting, rotate green\nbeams by dragging finger";
+"drag to aim ball.\nlet go to shoot" = "drag to aim ball.\nlet go to shoot";
+"farther drag means\nfaster speed" = "farther drag means\nfaster speed";
+"double tap\nto restart" = "double tap\nto restart";
+"the ball can bounce\noff green beams" = "the ball can bounce\noff green beams";
+"while moving, green beams\nbecome invisible" = "while moving, green beams\nbecome invisible";
+"tap to\nopen menu" = "tap to\nopen menu";
+"you can change your\ncontrols in settings" = "you can change your\ncontrols in settings";
+"tip: no rotating\nrequired" = "tip: no rotating\nrequired";
+"major key\nalert" = "major key\nalert";
+"holes have\ngravity" = "holes have\ngravity";
