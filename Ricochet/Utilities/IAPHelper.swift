@@ -134,6 +134,8 @@ extension IAPHelper {
                 return alertWithTitle(title: "Purchase Failed", message: "Cloud Service Network Connected Failed")
             case .cloudServiceRevoked:
                 return alertWithTitle(title: "Purchase Failed", message: "Cloud Service Revoked")
+            default:
+                return alertWithTitle(title: "Purchase Failed", message: "Error")
             }
         }
     }

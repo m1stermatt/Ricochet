@@ -393,8 +393,7 @@
 				DD3D894E1FDB8E3800632284 /* Sources */,
 				DD3D894F1FDB8E3800632284 /* Frameworks */,
 				DD3D89501FDB8E3800632284 /* Resources */,
-				629C6AC7CEEB95B5C668733F /* [CP] Embed Pods Frameworks */,
-				518D4EB89251F92392B64403 /* [CP] Copy Pods Resources */,
+				90039C16B5AAE57025410DF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -413,8 +412,6 @@
 				DD3D89681FDB8E3900632284 /* Sources */,
 				DD3D89691FDB8E3900632284 /* Frameworks */,
 				DD3D896A1FDB8E3900632284 /* Resources */,
-				3BBEF5C9094958CFDBE5C764 /* [CP] Embed Pods Frameworks */,
-				3216D55EB552E616AFF09ACA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -434,8 +431,6 @@
 				DD3D89731FDB8E3900632284 /* Sources */,
 				DD3D89741FDB8E3900632284 /* Frameworks */,
 				DD3D89751FDB8E3900632284 /* Resources */,
-				7F7EE31800F0B95E4E8E3ABE /* [CP] Embed Pods Frameworks */,
-				0CE3B286B439CBA508E0F616 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -460,20 +455,20 @@
 					DD3D89511FDB8E3800632284 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 2XHU6S7DTN;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1030;
 						ProvisioningStyle = Automatic;
 					};
 					DD3D896B1FDB8E3900632284 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 2XHU6S7DTN;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1030;
 						ProvisioningStyle = Automatic;
 						TestTargetID = DD3D89511FDB8E3800632284;
 					};
 					DD3D89761FDB8E3900632284 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 2XHU6S7DTN;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1030;
 						ProvisioningStyle = Automatic;
 						TestTargetID = DD3D89511FDB8E3800632284;
 					};
@@ -481,7 +476,7 @@
 			};
 			buildConfigurationList = DD3D894D1FDB8E3800632284 /* Build configuration list for PBXProject "Ricochet" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -542,73 +537,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0CE3B286B439CBA508E0F616 /* [CP] Copy Pods Resources */ = {
+		90039C16B5AAE57025410DF9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RicochetUITests/Pods-RicochetUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3216D55EB552E616AFF09ACA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RicochetTests/Pods-RicochetTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3BBEF5C9094958CFDBE5C764 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RicochetTests/Pods-RicochetTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		518D4EB89251F92392B64403 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ricochet/Pods-Ricochet-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		629C6AC7CEEB95B5C668733F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Ricochet/Pods-Ricochet-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Ricochet/Pods-Ricochet-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -617,22 +552,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ricochet/Pods-Ricochet-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7F7EE31800F0B95E4E8E3ABE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RicochetUITests/Pods-RicochetUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ricochet/Pods-Ricochet-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B2D0292802C71ABB9F0E95E1 /* [CP] Check Pods Manifest.lock */ = {
@@ -923,7 +843,7 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_REFLECTION_METADATA_LEVEL = none;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -945,7 +865,7 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_REFLECTION_METADATA_LEVEL = none;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -960,7 +880,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.wamdev.RicochetTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ricochet.app/Ricochet";
 			};
 			name = Debug;
@@ -976,7 +896,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.wamdev.RicochetTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ricochet.app/Ricochet";
 			};
 			name = Release;
@@ -991,7 +911,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.wamdev.RicochetUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = Ricochet;
 			};
 			name = Debug;
@@ -1006,7 +926,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.wamdev.RicochetUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = Ricochet;
 			};
 			name = Release;

@@ -40,7 +40,7 @@ class GameViewController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(rate(notification:)), name: .rate, object: nil)
         
         do {
-            try AVAudioSession.sharedInstance().setCategory(convertFromAVAudioSessionCategory(AVAudioSession.Category.ambient))
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category(rawValue: convertFromAVAudioSessionCategory(AVAudioSession.Category.ambient)))
             try AVAudioSession.sharedInstance().setActive(true)
         } catch {
             print("Could not play")

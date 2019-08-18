@@ -7,7 +7,8 @@
 [![Issues](https://img.shields.io/github/issues/bizz84/SwiftyStoreKit.svg?style=flat)](https://github.com/bizz84/SwiftyStoreKit/issues)
 [![Cocoapod](http://img.shields.io/cocoapods/v/SwiftyStoreKit.svg?style=flat)](http://cocoadocs.org/docsets/SwiftyStoreKit/)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Downloads](https://img.shields.io/cocoapods/dm/SwiftyStoreKit.svg)]()
+[![Accio supported](https://img.shields.io/badge/Accio-supported-0A7CF5.svg?style=flat)](https://github.com/JamitLabs/Accio)
+[![Downloads](https://img.shields.io/cocoapods/dm/SwiftyStoreKit.svg)](https://cocoapods.org/pods/SwiftyStoreKit)
 [![Twitter](https://img.shields.io/badge/twitter-@biz84-blue.svg?maxAge=2592000)](http://twitter.com/biz84)
 
 SwiftyStoreKit is a lightweight In App Purchases framework for iOS 8.0+, tvOS 9.0+ and macOS 10.10+.
@@ -18,7 +19,7 @@ SwiftyStoreKit is a lightweight In App Purchases framework for iOS 8.0+, tvOS 9.
 
 ### Note from the Author
 
-I started [**Sustainable Earth**](https://github.com/bizz84/Sustainable-Earth), a curated list of all things sustainable. Interested? [It's on GitHub](https://github.com/bizz84/Sustainable-Earth).
+I started [**Coding with Flutter**](https://www.youtube.com/playlist?list=PLNnAcB93JKV9iZ2cwk9MEx3_JG8BRikMP), a YouTube video series on building apps with Flutter. Interested? [**Subscribe here**](https://mailchi.mp/908b29bd9311/coding-with-flutter).
 
 ### Like SwiftyStoreKit? Please consider [becoming a Patron](https://www.patreon.com/biz84).
 
@@ -170,6 +171,7 @@ SwiftyStoreKit.purchaseProduct("com.musevisions.SwiftyStoreKit.Purchase1", quant
         case .cloudServicePermissionDenied: print("Access to cloud service information is not allowed")
         case .cloudServiceNetworkConnectionFailed: print("Could not connect to the network")
         case .cloudServiceRevoked: print("User has revoked permission to use this cloud service")
+        default: print((error as NSError).localizedDescription)
         }
     }
 }
@@ -197,6 +199,7 @@ SwiftyStoreKit.purchaseProduct("com.musevisions.SwiftyStoreKit.Purchase1", quant
         case .cloudServicePermissionDenied: print("Access to cloud service information is not allowed")
         case .cloudServiceNetworkConnectionFailed: print("Could not connect to the network")
         case .cloudServiceRevoked: print("User has revoked permission to use this cloud service")
+        default: print((error as NSError).localizedDescription)
         }
     }
 }
@@ -720,6 +723,7 @@ Many thanks to [phimage](https://github.com/phimage) for adding macOS support an
 
 It would be great to showcase apps using SwiftyStoreKit here. Pull requests welcome :)
 
+* [Countdown](https://countdowns.download/ssk) - Countdown the days until your next vacation, deadline, or event
 * [MDacne](https://itunes.apple.com/app/id1044050208) - Acne analysis and treatment
 * [Pixel Picker](https://itunes.apple.com/app/id930804327) - Image Color Picker
 * [KType](https://itunes.apple.com/app/id1037000234) - Space shooter game
